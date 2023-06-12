@@ -1,11 +1,13 @@
-import express, {Express, Request, Response} from 'express';
+import express, { Express, Request, Response } from "express";
 
 const app: Express = express();
 
-app.get('/', (req: Request, res: Response) => {
-    res.json("This is express with typesccript!!!!!!!!!!!!!");
-})
+const PORT = process.env.PORT || 8000;
 
-app.listen(8000, () => {
-    console.log('Listening to port 8000');
-}) 
+app.get("/", (req: Request, res: Response) => {
+  res.json("Your express app with typescript!!");
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}...`);
+});
