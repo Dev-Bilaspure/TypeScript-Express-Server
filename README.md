@@ -1,4 +1,4 @@
-#TypeScript Express Server Template
+# TypeScript Express Server Template
 
 This repository provides a starter template for creating an Express server using TypeScript. It aims to save developers time by eliminating the need to set up the initial TypeScript configuration and project structure.
 
