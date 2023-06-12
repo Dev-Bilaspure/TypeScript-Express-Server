@@ -16,7 +16,7 @@ This repository provides a starter template for creating an Express server using
 1. Clone the repository to your local machine:
 
 ```bash
-[git clone https://github.com/your-username/your-repo.git](https://github.com/Dev-Bilaspure/TypeScript-Express-Server-Template.git)
+git clone https://github.com/your-username/your-repo.git](https://github.com/Dev-Bilaspure/TypeScript-Express-Server-Template.git)
 ```
 
 2. Install the project dependencies using your preferred package manager:
